@@ -7,7 +7,7 @@ export class HeroApiHelper {
     // Create an event type
     const processedEvents: any = events;
     processedEvents.processed = 'Yes';
-    return events;
+    return processedEvents;
   }
 
   public static async getAugmentedEvents(): Promise<any> {
